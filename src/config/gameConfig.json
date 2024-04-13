@@ -1,0 +1,18 @@
+{
+	"firstField": {
+		"limit": 8,
+		"startAt": 1,
+		"endAt": 19,
+		"minMatches": 4
+	},
+	"secondField": {
+		"limit": 1,
+		"startAt": 1,
+		"endAt": 2,
+		"minMatches": 1
+	},
+	"messages": {
+		"win": "Ого, вы выиграли! Поздравляем!",
+		"fail": "Вы проиграли. Попробуйте еще раз."
+	}
+}

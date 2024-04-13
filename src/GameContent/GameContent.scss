@@ -1,0 +1,17 @@
+.field {
+	&__header {
+		display: flex;
+    align-items: baseline;
+    gap: 20px;
+	}
+}
+
+.gameContent {
+	position: relative;
+}
+
+.gameContent__randomButton {
+	position: absolute;
+	top: 0;
+	right: 5%;
+}

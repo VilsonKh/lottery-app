@@ -1,0 +1,34 @@
+.button {
+	display: block;
+	padding: 10px 20px;
+	margin-top: 20px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:disabled {
+		opacity: 0.5;
+	}
+
+	&:hover {
+		background-color: #5a55da;
+	}
+}
+
+.primary {
+	background-color: #645cff;
+}
+
+.large {
+	width: 100%;
+}
+
+.contained {
+	border: none;
+}
+
+.outlined {
+	background-color: transparent;
+	border: 1px solid #645cff;
+}
